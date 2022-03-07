@@ -8,4 +8,5 @@ public class BasePage {
         PageFactory.initElements(Driver.get(),this);
     }
     //samet
+    //sam2
 }
