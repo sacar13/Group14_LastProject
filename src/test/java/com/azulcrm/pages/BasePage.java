@@ -7,4 +7,5 @@ public class BasePage {
     public BasePage(){
         PageFactory.initElements(Driver.get(),this);
     }
+    //samet
 }
