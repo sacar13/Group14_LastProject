@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-03-09T10:07:52.861Z",
+        "start_timestamp": "2022-03-09T18:30:54.117Z",
         "before": [
           {
             "result": {
-              "duration": 3548596600,
+              "duration": 3707714500,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1173305300,
+              "duration": 1028042800,
               "status": "passed"
             },
             "match": {
@@ -35,19 +35,13 @@
         "steps": [
           {
             "result": {
-              "duration": 16986215100,
+              "duration": 15315479400,
               "status": "passed"
             },
             "line": 5,
-            "name": "the user logged in as \"hr6@cybertekschool.com\"",
+            "name": "the user logged in",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"hr6@cybertekschool.com\"",
-                  "offset": 22
-                }
-              ],
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
             },
             "keyword": "Given "
           }

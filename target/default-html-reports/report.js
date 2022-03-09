@@ -18,11 +18,11 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user logged in as \"hr6@cybertekschool.com\"",
+  "name": "the user logged in",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
 });
 formatter.result({
   "status": "passed"
