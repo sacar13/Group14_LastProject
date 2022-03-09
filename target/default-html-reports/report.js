@@ -18,7 +18,7 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user logged in as \"hr8@cybertekschool.com\"",
+  "name": "the user logged in as \"hr6@cybertekschool.com\"",
   "keyword": "Given "
 });
 formatter.match({

@@ -17,5 +17,7 @@ public class LoginStepDefs {
         String password = ConfigurationReader.get("password");
         loginPage.login(username,password);
         BrowserUtils.waitForPageToLoad(2);
+        String actualTitle = Driver.get().getTitle();
+        Assert.assertTrue("the title is not Portal",actualTitle.contains("Portal"));
     }
 }
