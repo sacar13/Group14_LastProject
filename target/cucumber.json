@@ -1,0 +1,63 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-09T18:30:54.117Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3707714500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "login;",
+        "after": [
+          {
+            "result": {
+              "duration": 1028042800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15315479400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
