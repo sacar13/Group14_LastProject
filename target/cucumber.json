@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8803764700,
+              "duration": 8087033300,
               "status": "passed"
             },
             "line": 5,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 107966300,
               "status": "passed"
             },
             "line": 6,
@@ -42,11 +42,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-03-09T14:33:21.657Z",
+        "start_timestamp": "2022-03-09T17:36:51.641Z",
         "before": [
           {
             "result": {
-              "duration": 3661987300,
+              "duration": 2663628200,
               "status": "passed"
             },
             "match": {
@@ -54,14 +54,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "Creating event with specific time and date",
+        "line": 15,
+        "name": "Setting place and reminder for event",
         "description": "",
-        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;creating-event-with-specific-time-and-date",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;setting-place-and-reminder-for-event",
         "after": [
           {
             "result": {
-              "duration": 910135500,
+              "duration": 867833400,
               "status": "passed"
             },
             "match": {
@@ -74,10 +74,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3997600,
+              "duration": 2246352900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 16,
             "name": "the user selects start date, ending date, time and sets the time zone",
             "match": {
               "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
@@ -86,10 +86,22 @@
           },
           {
             "result": {
-              "duration": 998700,
+              "duration": 633767100,
               "status": "passed"
             },
-            "line": 11,
+            "line": 17,
+            "name": "the user sets place and sets reminder for the event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3328311000,
+              "status": "passed"
+            },
+            "line": 18,
             "name": "the user gives a name to event and clicks Send button",
             "match": {
               "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
@@ -98,12 +110,13 @@
           },
           {
             "result": {
+              "duration": 4961783600,
               "status": "passed"
             },
-            "line": 12,
-            "name": "the user should be able to create the event",
+            "line": 19,
+            "name": "the user should be able to create the event and see its location",
             "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event()"
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
             },
             "keyword": "Then "
           }
@@ -120,73 +133,6 @@
     "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/create_event.feature",
-    "tags": []
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "start_timestamp": "2022-03-09T14:33:35.173Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1909412700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "",
-        "description": "",
-        "id": "login;",
-        "after": [
-          {
-            "result": {
-              "duration": 865332100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 8536618000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "the user logged in as \"hr8@cybertekschool.com\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr8@cybertekschool.com\"",
-                  "offset": 22
-                }
-              ],
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
-            },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      }
-    ],
-    "name": "Login",
-    "description": "",
-    "id": "login",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
     "tags": []
   }
 ]

@@ -33,7 +33,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Creating event with specific time and date",
+  "name": "Setting place and reminder for event",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -53,6 +53,16 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
+  "name": "the user sets place and sets reminder for the event",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
   "name": "the user gives a name to event and clicks Send button",
   "keyword": "And "
 });
@@ -63,43 +73,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to create the event",
+  "name": "the user should be able to create the event and see its location",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/features/login.feature");
-formatter.feature({
-  "name": "Login",
-  "description": "",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "name": "",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user logged in as \"hr8@cybertekschool.com\"",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in_as(java.lang.String)"
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
 });
 formatter.result({
   "status": "passed"
