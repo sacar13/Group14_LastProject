@@ -2,5 +2,5 @@
 Feature: Login
 
   Scenario:
-    Given the user logged in as "hr8@cybertekschool.com"
+    Given the user logged in
 
