@@ -16,16 +16,12 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
 public class CreateEventStepDefs {
 
     EventPage eventPage = new EventPage();
 
-    @Given("the user is logged in as {string}")
-    public void the_user_is_logged_in_as(String userName) {
-        LoginStepDefs loginStepDefs = new LoginStepDefs();
-        loginStepDefs.the_user_logged_in_as(userName);
-    }
 
     @Given("the user clicks on Event")
     public void the_user_clicks_on_Event() {
@@ -128,5 +124,18 @@ public class CreateEventStepDefs {
         Assert.assertEquals("SalesDepartment isn't selected",expectedDestination,actualDestination);
     }
 
+    @When("user clicks on More button")
+    public void user_clicks_on_More_button() {
+        Assert.assertTrue("More button is not shown",eventPage.eventMoreButton.isDisplayed());
+        eventPage.eventMoreButton.click();
+    }
+
+    @Then("the user should see the following options in this order:")
+    public void the_user_should_see_the_following_options_in_this_order(List<String> expectedOptions) {
+        List<String> actualOptions = BrowserUtils.getElementsText(eventPage.eventMoreOptions);
+
+        Assert.assertEquals("Not expected options",expectedOptions,actualOptions);
+
+    }
 
 }

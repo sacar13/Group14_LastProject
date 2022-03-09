@@ -3,11 +3,44 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-03-09T18:30:54.117Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7030685700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157909200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-09T23:06:14.408Z",
         "before": [
           {
             "result": {
-              "duration": 3707714500,
+              "duration": 2580811800,
               "status": "passed"
             },
             "match": {
@@ -15,14 +48,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "",
+        "line": 9,
+        "name": "Creating event with specific time and date",
         "description": "",
-        "id": "login;",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;creating-event-with-specific-time-and-date",
         "after": [
           {
             "result": {
-              "duration": 1028042800,
+              "duration": 1181318600,
               "status": "passed"
             },
             "match": {
@@ -35,7 +68,57 @@
         "steps": [
           {
             "result": {
-              "duration": 15315479400,
+              "duration": 2230656300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects start date, ending date, time and sets the time zone",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3280549500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user gives a name to event and clicks Send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5258963900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should be able to create the event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8043072500,
               "status": "passed"
             },
             "line": 5,
@@ -44,6 +127,363 @@
               "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109346100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-09T23:06:36.214Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2097788900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Setting place and reminder for event",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;setting-place-and-reminder-for-event",
+        "after": [
+          {
+            "result": {
+              "duration": 883666200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2467208400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user selects start date, ending date, time and sets the time zone",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711978600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user sets place and sets reminder for the event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3435523200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user gives a name to event and clicks Send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4052737100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user should be able to create the event and see its location",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7086963500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 109133500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-09T23:06:58.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1711581200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Adding attendees to event message",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;adding-attendees-to-event-message",
+        "after": [
+          {
+            "result": {
+              "duration": 847626200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2219317900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user selects start date, ending date, time and sets the time zone",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1148376700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user selects \"Mike Smith\" and \"Sales Department\" from members",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mike Smith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Sales Department\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_and_from_members(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3103475100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user gives a name to event and clicks Send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3856171100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user should be able to create an event and see \"SalesDepartment\" has gotten the message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SalesDepartment\"",
+                  "offset": 47
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_should_be_able_to_create_an_event_and_see_has_gotten_the_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7285772500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 112570800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-09T23:07:18.142Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1693760400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "More option details of sending an event",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;more-option-details-of-sending-an-event",
+        "after": [
+          {
+            "result": {
+              "duration": 889527100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2132418600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user selects start date, ending date, time and sets the time zone",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188205200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on More button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_clicks_on_More_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111936200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the user should see the following options in this order:",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_see_the_following_options_in_this_order(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Availability"
+                ]
+              },
+              {
+                "cells": [
+                  "Repeat"
+                ]
+              },
+              {
+                "cells": [
+                  "Calendar"
+                ]
+              },
+              {
+                "cells": [
+                  "Importance"
+                ]
+              }
+            ],
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -53,11 +493,20 @@
         ]
       }
     ],
-    "name": "Login",
+    "name": "As a user, I should be able to create events by clicking on Event tab under Activity Stream",
     "description": "",
-    "id": "login",
+    "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/create_event.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

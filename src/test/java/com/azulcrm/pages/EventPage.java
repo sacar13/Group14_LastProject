@@ -3,6 +3,8 @@ package com.azulcrm.pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import java.util.List;
+
 public class EventPage extends BasePage{
 
     @FindBy(css = "#feed-add-post-form-tab-calendar > span")
@@ -77,4 +79,6 @@ public class EventPage extends BasePage{
     @FindBy(css = "#feed-cal-additional-show > span")
     public WebElement eventMoreButton;
 
+    @FindBy(xpath = "//*[@id='feed-cal-additional-inner']/table/tbody/tr/td/label")
+    public List<WebElement> eventMoreOptions;
 }
