@@ -33,7 +33,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "Setting place and reminder for event",
+  "name": "Adding attendees to event message",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -53,11 +53,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user sets place and sets reminder for the event",
+  "name": "the user selects \"Mike Smith\" and \"Sales Department\" from members",
   "keyword": "And "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_and_from_members(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -73,11 +73,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to create the event and see its location",
+  "name": "the user should be able to create the event and see \"SalesDepartment\" has gotten the message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_has_gotten_the_message(java.lang.String)"
 });
 formatter.result({
   "status": "passed"

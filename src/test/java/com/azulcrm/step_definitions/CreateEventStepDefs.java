@@ -2,11 +2,13 @@ package com.azulcrm.step_definitions;
 
 import com.azulcrm.pages.EventPage;
 import com.azulcrm.utilities.BrowserUtils;
+import com.azulcrm.utilities.Driver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.cucumber.java.eo.Se;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.support.ui.Select;
 
@@ -98,5 +100,33 @@ public class CreateEventStepDefs {
         String actualLocation = eventPage.lastCreatedEventLocation.getText();
         Assert.assertEquals("Event location is wrong",expectedLocation,actualLocation);
     }
+
+    @When("the user selects {string} and {string} from members")
+    public void the_user_selects_and_from_members(String targetUser1, String targetUser2) {
+        eventPage.membersInbox.click();
+        eventPage.employeesAndDepartments.click();
+        eventPage.mikeSmith.click();
+        eventPage.salesDepartment.click();
+        eventPage.allSalesDepartmentSelectButton.click();
+
+        boolean targetsAcquired = false;
+        try{
+            eventPage.membersInbox.findElement(By.xpath("//span[@data-id='U702']"));
+            eventPage.membersInbox.findElement(By.xpath("//span[@data-id='DR200']"));
+            targetsAcquired = true;
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+        Assert.assertTrue("Target users were not selected",targetsAcquired);
+
+    }
+
+    @Then("user should be able to create an event and see {string} has gotten the message")
+    public void user_should_be_able_to_create_an_event_and_see_has_gotten_the_message(String expectedDestination){
+        String actualDestination = eventPage.getLastCreatedEventDestination.getText();
+        Assert.assertEquals("SalesDepartment isn't selected",expectedDestination,actualDestination);
+    }
+
 
 }

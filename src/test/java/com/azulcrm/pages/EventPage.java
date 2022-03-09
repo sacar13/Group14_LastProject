@@ -65,4 +65,16 @@ public class EventPage extends BasePage{
     @FindBy(xpath = "(//td[@class='feed-calendar-view-text-cell-r'])[3]")
     public WebElement lastCreatedEventLocation;
 
+    @FindBy(xpath = "//*[@class='bx-finder-company-department']/a[@href='#DR200']")
+    public WebElement salesDepartment;
+
+    @FindBy(xpath = "(//span/div[@class='bx-finder-company-department-check-arrow'])[3]")
+    public WebElement allSalesDepartmentSelectButton;
+
+    @FindBy(xpath = "(//*[@class='feed-add-post-destination-icon']/../*)[2]")
+    public WebElement getLastCreatedEventDestination;
+
+    @FindBy(css = "#feed-cal-additional-show > span")
+    public WebElement eventMoreButton;
+
 }

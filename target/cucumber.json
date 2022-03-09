@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8087033300,
+              "duration": 8037812300,
               "status": "passed"
             },
             "line": 5,
@@ -29,7 +29,7 @@
           },
           {
             "result": {
-              "duration": 107966300,
+              "duration": 135921600,
               "status": "passed"
             },
             "line": 6,
@@ -42,11 +42,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-03-09T17:36:51.641Z",
+        "start_timestamp": "2022-03-09T22:21:42.476Z",
         "before": [
           {
             "result": {
-              "duration": 2663628200,
+              "duration": 4286383100,
               "status": "passed"
             },
             "match": {
@@ -54,14 +54,14 @@
             }
           }
         ],
-        "line": 15,
-        "name": "Setting place and reminder for event",
+        "line": 22,
+        "name": "Adding attendees to event message",
         "description": "",
-        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;setting-place-and-reminder-for-event",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;adding-attendees-to-event-message",
         "after": [
           {
             "result": {
-              "duration": 867833400,
+              "duration": 916490400,
               "status": "passed"
             },
             "match": {
@@ -74,10 +74,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2246352900,
+              "duration": 2866775700,
               "status": "passed"
             },
-            "line": 16,
+            "line": 23,
             "name": "the user selects start date, ending date, time and sets the time zone",
             "match": {
               "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
@@ -86,22 +86,32 @@
           },
           {
             "result": {
-              "duration": 633767100,
+              "duration": 3226360500,
               "status": "passed"
             },
-            "line": 17,
-            "name": "the user sets place and sets reminder for the event",
+            "line": 24,
+            "name": "the user selects \"Mike Smith\" and \"Sales Department\" from members",
             "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+              "arguments": [
+                {
+                  "val": "\"Mike Smith\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Sales Department\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_and_from_members(java.lang.String,java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3328311000,
+              "duration": 3096416100,
               "status": "passed"
             },
-            "line": 18,
+            "line": 25,
             "name": "the user gives a name to event and clicks Send button",
             "match": {
               "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
@@ -110,13 +120,19 @@
           },
           {
             "result": {
-              "duration": 4961783600,
+              "duration": 3893642900,
               "status": "passed"
             },
-            "line": 19,
-            "name": "the user should be able to create the event and see its location",
+            "line": 26,
+            "name": "the user should be able to create the event and see \"SalesDepartment\" has gotten the message",
             "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
+              "arguments": [
+                {
+                  "val": "\"SalesDepartment\"",
+                  "offset": 52
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_has_gotten_the_message(java.lang.String)"
             },
             "keyword": "Then "
           }
