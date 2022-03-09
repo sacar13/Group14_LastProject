@@ -15,19 +15,17 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "the user logged in",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });
