@@ -1,13 +1,136 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-03-09T10:07:52.861Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8803764700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is logged in as \"hr10@cybertekschool.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr10@cybertekschool.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_is_logged_in_as(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-09T14:33:21.657Z",
         "before": [
           {
             "result": {
-              "duration": 3548596600,
+              "duration": 3661987300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Creating event with specific time and date",
+        "description": "",
+        "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream;creating-event-with-specific-time-and-date",
+        "after": [
+          {
+            "result": {
+              "duration": 910135500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3997600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects start date, ending date, time and sets the time zone",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user gives a name to event and clicks Send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user should be able to create the event",
+            "match": {
+              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to create events by clicking on Event tab under Activity Stream",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-create-events-by-clicking-on-event-tab-under-activity-stream",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/create_event.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-09T14:33:35.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1909412700,
               "status": "passed"
             },
             "match": {
@@ -22,7 +145,7 @@
         "after": [
           {
             "result": {
-              "duration": 1173305300,
+              "duration": 865332100,
               "status": "passed"
             },
             "match": {
@@ -35,15 +158,15 @@
         "steps": [
           {
             "result": {
-              "duration": 16986215100,
+              "duration": 8536618000,
               "status": "passed"
             },
             "line": 5,
-            "name": "the user logged in as \"hr6@cybertekschool.com\"",
+            "name": "the user logged in as \"hr8@cybertekschool.com\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"hr6@cybertekschool.com\"",
+                  "val": "\"hr8@cybertekschool.com\"",
                   "offset": 22
                 }
               ],
