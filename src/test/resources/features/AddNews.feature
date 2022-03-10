@@ -1,3 +1,4 @@
+@smoke
 Feature: As a user, I should be able to add news under Company
 
 
@@ -22,9 +23,9 @@ Feature: As a user, I should be able to add news under Company
     And the user clicks Save button
     Then hen the user should be able to see the new is sent
   @wip
-  #Scenario:  User should be able to select Text, HTML, and Visual Editor
-   # When user clicks on Text,HTML and Visual Editor
-    #Then user should be able to select Text,HTML and Visual Editor
+  Scenario:  User should be able to select Text, HTML, and Visual Editor
+    When user clicks on "HTML" radio button
+    Then user should be able to see "html" radio button is selected
 
 
 

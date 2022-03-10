@@ -82,8 +82,42 @@ public class AddNewsStepDefs {
         String actualTitle = addNewsPage.lastNew.getText();
 
         Assert.assertEquals("the new is NOT created",expectedTitle,actualTitle);
-
     }
+
+    @When("user clicks on {string} radio button")
+    public void user_clicks_on_radio_button(String button) {
+        switch (button.toLowerCase()){
+            case "text":
+                addNewsPage.textHTMLVisualEditor.get(0).click();
+                break;
+            case "html":
+                addNewsPage.textHTMLVisualEditor.get(1).click();
+                break;
+            case "Visual Editor":
+                addNewsPage.textHTMLVisualEditor.get(2).click();
+                break;
+        }
+    }
+
+    @Then("user should be able to see {string} radio button is selected")
+    public void user_should_be_able_to_see_radio_button_is_selected(String button) {
+       switch (button.toLowerCase()){
+           case "text":
+               System.out.println();
+               Assert.assertTrue("text is NOT selected",addNewsPage.textHTMLVisualEditor.get(0).isSelected());
+               break;
+           case "html":
+               Assert.assertTrue("HTML is NOT selected",addNewsPage.textHTMLVisualEditor.get(1).isSelected());
+               break;
+           case "Visual Editor":
+               Assert.assertTrue("Visual Editor is NOT selected",addNewsPage.textHTMLVisualEditor.get(2).isSelected());
+               break;
+       }
+    }
+
+
+
+
 
 
 
