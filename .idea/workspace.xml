@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="Create event feature and Set place/time feature added">
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="More options feature added">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/1_AZUL-800.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/pages/EventPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/pages/EventPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create_event.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/create_event.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/create_event.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/pages/EventPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/pages/EventPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/step_definitions/CreateEventStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/step_definitions/CreateEventStepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/create_event.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/create_event.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/create_event.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +75,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/azulcrm/runners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\IdeaProjects\Group14_LastProject\src\test\resources\features" />
       <recent name="C:\Users\smtac\IdeaProjects\Group14_LastProject\src\test\java\com\azulcrm\runners" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -181,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646820360227</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="More options feature added">
+      <created>1646867293435</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646867293435</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +213,8 @@
     <MESSAGE value="new feature added" />
     <MESSAGE value="new test" />
     <MESSAGE value="login step def. updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="login step def. updated" />
+    <MESSAGE value="More options feature added" />
+    <option name="LAST_COMMIT_MESSAGE" value="More options feature added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

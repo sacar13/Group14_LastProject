@@ -1,11 +1,11 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/create_event.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/1_AZUL-800.feature");
 formatter.feature({
-  "name": "As a user, I should be able to create events by clicking on Event tab under Activity Stream",
+  "name": "Default",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@AZUL-805"
     }
   ]
 });
@@ -43,7 +43,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@AZUL-805"
+    },
+    {
+      "name": "@AZUL-801"
     }
   ]
 });
@@ -114,7 +117,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@AZUL-805"
+    },
+    {
+      "name": "@AZUL-802"
     }
   ]
 });
@@ -129,11 +135,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user sets place and sets reminder for the event",
+  "name": "the user sets reminder and sets place for the event",
   "keyword": "And "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_place_and_sets_reminder_for_the_event()"
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_reminder_and_sets_place_for_the_event()"
 });
 formatter.result({
   "status": "passed"
@@ -195,7 +201,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@AZUL-805"
+    },
+    {
+      "name": "@AZUL-803"
     }
   ]
 });
@@ -210,7 +219,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user selects \"Mike Smith\" and \"Sales Department\" from members",
+  "name": "the user selects \"hr20@cybertekschool.com\" and \"Sales Department\" from members",
   "keyword": "And "
 });
 formatter.match({
@@ -230,11 +239,11 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "user should be able to create an event and see \"SalesDepartment\" has gotten the message",
+  "name": "user should see \"hr20@cybertekschool.com\" and \"SalesDepartment\" has gotten the message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_should_be_able_to_create_an_event_and_see_has_gotten_the_message(java.lang.String)"
+  "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_should_see_has_gotten_the_message(java.lang.String,java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -276,7 +285,10 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@wip"
+      "name": "@AZUL-805"
+    },
+    {
+      "name": "@AZUL-804"
     }
   ]
 });

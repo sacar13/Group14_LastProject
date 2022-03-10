@@ -46,7 +46,10 @@ public class EventPage extends BasePage{
     @FindBy(xpath = "(//a[@href='#U702']/div/div)[2]")
     public WebElement mikeSmith;
 
-    @FindBy(css = "a[id^='feed-event-view-link-livefeed']")
+    @FindBy(xpath = "(//a[@href='#U712']/div/div)[2]")
+    public WebElement hr20;
+
+    @FindBy(xpath = "(//table/tbody/tr/td/a)[1]")
     public WebElement lastCreatedEventName;
 
     @FindBy(id = "event-remindercal_3Jcl")
@@ -63,6 +66,12 @@ public class EventPage extends BasePage{
 
     @FindBy(id = "bxecmr_0")
     public WebElement centralMeetingRoom;
+
+    @FindBy(id = "bxecmr_1")
+    public WebElement eastMeetingRoom;
+
+    @FindBy(id = "bxecmr_2")
+    public WebElement westMeetingRoom;
 
     @FindBy(xpath = "(//td[@class='feed-calendar-view-text-cell-r'])[3]")
     public WebElement lastCreatedEventLocation;
@@ -81,4 +90,10 @@ public class EventPage extends BasePage{
 
     @FindBy(xpath = "//*[@id='feed-cal-additional-inner']/table/tbody/tr/td/label")
     public List<WebElement> eventMoreOptions;
+
+    @FindBy(xpath = "(//span[@class='feed-ev-planner-link'])[1]")
+    public WebElement eventConflictDetailsButton;
+
+    @FindBy(className = "calendar-planner-time-arrow-right-text")
+    public WebElement vacantTimeArrow;
 }
