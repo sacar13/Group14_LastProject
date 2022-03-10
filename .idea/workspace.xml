@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="DONE">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Features/1_AZUL-816.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Employees.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Employees.feature" afterDir="false" />
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="DONE2">
       <change beforePath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Employees.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Employees.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646953825337</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DONE2">
+      <created>1646956352974</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1646956352974</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,6 +220,7 @@
     <MESSAGE value="samet deleted" />
     <MESSAGE value="new feature added" />
     <MESSAGE value="DONE" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE" />
+    <MESSAGE value="DONE2" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE2" />
   </component>
 </project>
