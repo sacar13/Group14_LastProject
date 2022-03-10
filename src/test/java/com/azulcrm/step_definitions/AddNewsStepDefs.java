@@ -40,7 +40,7 @@ public class AddNewsStepDefs {
 
     @And("the user selects any date from the calendar")
     public void theUserSelectsAnyDateFromTheCalendar() {
-        addNewsPage.daysOfWeek.get(4).click();
+        addNewsPage.daysOfWeek.get(3).click();
     }
 
     @When("the user clicks Set time tap and set the time {string} as hour and {string} as minute")
@@ -54,11 +54,37 @@ public class AddNewsStepDefs {
     @Then("the user should be able to see the date selected and the time set")
     public void the_user_should_be_able_to_see_the_date_selected_and_the_time_set() {
         String expectedInput = "03/23/2022 11:45:00 pm";
-        BrowserUtils.waitFor(2.0);
-        System.out.println("addNewsPage.dateInputBox.getText() = " + addNewsPage.dateInputBox.getText());
+        String actualInput = addNewsPage.dateInputBox.getAttribute("value");
 
+        Assert.assertEquals("the date and time is NOT as expected",expectedInput,actualInput);
+    }
+
+    @When("the user writes {string} on Title input box")
+    public void the_user_writes_on_Title_input_box(String title) {
+       addNewsPage.titleInputBox.sendKeys(title);
+    }
+
+    @When("the user writes {string} on the textArea input box")
+    public void the_user_writes_on_the_textArea_input_box(String text) {
+        addNewsPage.textAreaInputBox.sendKeys(text);
+    }
+
+    @When("the user clicks Save button")
+    public void the_user_clicks_Save_button() {
+        addNewsPage.saveButton.click();
+    }
+
+    @Then("hen the user should be able to see the new is sent")
+    public void hen_the_user_should_be_able_to_see_the_new_is_sent() {
+        BrowserUtils.waitFor(2.0);
+        addNewsPage.newsTab.click();
+        String expectedTitle = "Breaking News";
+        String actualTitle = addNewsPage.lastNew.getText();
+
+        Assert.assertEquals("the new is NOT created",expectedTitle,actualTitle);
 
     }
+
 
 
 
