@@ -21,4 +21,5 @@ public class LoginStepDefs {
         String actualTitle = Driver.get().getTitle();
         Assert.assertTrue("the title is not Portal",actualTitle.contains("Portal"));
     }
+
 }
