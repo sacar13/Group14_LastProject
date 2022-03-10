@@ -25,6 +25,26 @@ public class AddNewsPage extends BasePage{
     @FindBy(css = ".adm-calendar-icon")
     public WebElement calendarIcon;
 
+    @FindBy(xpath = "(//div[@class='bx-calendar-range'])[4]/a")
+    public List<WebElement> daysOfWeek;
+
+    @FindBy(xpath = "//a[@class='bx-calendar-set-time']")
+    public WebElement setTimeTab;
+
+    @FindBy(xpath = "(//input[@class='bx-calendar-form-input'])[1]")
+    public WebElement setTimeHourInput;
+
+    @FindBy(xpath = "(//input[@class='bx-calendar-form-input'])[2]")
+    public WebElement setTimeMinuteInput;
+
+    @FindBy(xpath = "(//div[@class='bx-calendar-button-block']/a/span)[2]")
+    public WebElement calendarSelectButton;
+
+    @FindBy(xpath = "//input[@class='adm-input adm-input-calendar']")
+    public WebElement dateInputBox;
+
+
+
 
 
 }
