@@ -13,4 +13,8 @@ public class BasePage {
     @FindBy(xpath = "(//span[@class='menu-item-link-text'])[12]")
     public WebElement companyTab;
 
+
+
+
+
 }
