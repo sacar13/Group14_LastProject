@@ -5,17 +5,20 @@ import org.openqa.selenium.support.FindBy;
 
 public class EmployeesPage extends BasePage {
 
-    @FindBy(className = "user-post-name")
+    @FindBy(className = "hr5@cybertekschool.com")
     public  WebElement postName;
 
 
     @FindBy(className = "bx-ilike-left-wrap")
     public WebElement likebutton;
 
-    @FindBy(id = "blog-post-addc-add-788")
+    @FindBy(name = "hidden_focus")
     public WebElement commentButton;
 
-    @FindBy(className = "feed-inform-follow")
+    @FindBy(xpath = "//button[contains(text(),'Send')]")
+    public WebElement commentSaveButton;
+
+    @FindBy(partialLinkText = "Unfollow")
     public WebElement unfollowButton;
 
 
