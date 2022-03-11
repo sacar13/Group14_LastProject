@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="All features completed" />
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="All features completed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="samet" />
+        <entry key="$PROJECT_DIR$" value="asd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
@@ -199,7 +203,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="selim/branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
