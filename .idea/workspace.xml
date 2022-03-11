@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="new test">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sam.feature" afterDir="false" />
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="All features completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +22,27 @@
   </component>
   <component name="Git.Merge.Settings">
     <option name="BRANCH" value="master" />
+    <option name="OPTIONS">
+      <set>
+        <option value="COMMIT_MESSAGE" />
+      </set>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="samet" />
+        <entry key="$PROJECT_DIR$" value="asd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/LoginStepDefs.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/configuration.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/LoginPage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,11 +64,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/azulcrm/runners" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gebruiker\IdeaProjects\Group14_LastProject\src\test\resources\features" />
       <recent name="C:\Users\smtac\IdeaProjects\Group14_LastProject\src\test\java\com\azulcrm\runners" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -80,6 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
@@ -150,7 +167,35 @@
       <option name="project" value="LOCAL" />
       <updated>1646773935353</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="login step def. updated">
+      <created>1646820360227</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646820360227</updated>
+    </task>
+    <task id="LOCAL-00010" summary="More options feature added">
+      <created>1646867293435</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646867293435</updated>
+    </task>
+    <task id="LOCAL-00011" summary="All features completed">
+      <created>1646880963509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1646880963509</updated>
+    </task>
+    <task id="LOCAL-00012" summary="All features completed">
+      <created>1646900949359</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646900949359</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +203,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="selim/branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -171,7 +228,10 @@
     <MESSAGE value="login feature added" />
     <MESSAGE value="new feature added" />
     <MESSAGE value="new test" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test" />
+    <MESSAGE value="login step def. updated" />
+    <MESSAGE value="More options feature added" />
+    <MESSAGE value="All features completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="All features completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
