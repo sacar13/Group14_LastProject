@@ -27,7 +27,7 @@ import java.util.List;
 public class CreateEventStepDefs {
 
     EventPage eventPage = new EventPage();
-
+    //Made some changes for pull-request feature
 
     @Given("the user clicks on Event")
     public void the_user_clicks_on_Event() {
