@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
-public class AddNewsStepDefs {
+public class NewsStepDefs {
 
     NewsPage newsPage = new NewsPage();
 
