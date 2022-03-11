@@ -13,6 +13,7 @@ public class LoginStepDefs {
 
     @Given("the user logged in as {string}")
     public void the_user_logged_in_as(String username){
+        username = ConfigurationReader.get("username");
         Driver.get().get(ConfigurationReader.get("url"));
         String password = ConfigurationReader.get("password");
         loginPage.login(username,password);
