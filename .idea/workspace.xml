@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="All features completed" />
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="Made changes for pull-request feature">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2022_3_26_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2022_3_26_PM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2022_3_26_PM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2022_3_26_PM__Changes_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/CreateEventStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/formatter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/jquery-3.4.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-html-reports/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-html-reports/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="samet" />
+        <entry key="$PROJECT_DIR$" value="asd" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.CukesRunner" />
@@ -199,7 +210,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="selim/branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

@@ -27,7 +27,7 @@ import java.util.List;
 public class CreateEventStepDefs {
 
     EventPage eventPage = new EventPage();
-
+    //Made some changes for pull-request feature
 
     @Given("the user clicks on Event")
     public void the_user_clicks_on_Event() {
@@ -83,18 +83,22 @@ public class CreateEventStepDefs {
         eventPage.eventLocationDropdown.click();
         eventPage.centralMeetingRoom.click();
 
-        eventPage.eventConflictDetailsButton.click();
-        if (eventPage.vacantTimeArrow.isDisplayed()) {
-            eventPage.eventLocationDropdown.click();
-            eventPage.eastMeetingRoom.click();
+        try {
+            eventPage.eventConflictDetailsButton.click();
             if (eventPage.vacantTimeArrow.isDisplayed()) {
                 eventPage.eventLocationDropdown.click();
-                eventPage.vacantTimeArrow.click();
+                eventPage.eastMeetingRoom.click();
                 if (eventPage.vacantTimeArrow.isDisplayed()) {
-                    BrowserUtils.waitFor(2.0);
+                    eventPage.eventLocationDropdown.click();
                     eventPage.vacantTimeArrow.click();
+                    if (eventPage.vacantTimeArrow.isDisplayed()) {
+                        BrowserUtils.waitFor(2.0);
+                        eventPage.vacantTimeArrow.click();
+                    }
                 }
             }
+        }catch (Exception e){
+            e.printStackTrace();
         }
 
         Assert.assertTrue(eventPage.setReminderButton.isEnabled());
