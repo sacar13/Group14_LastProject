@@ -12,8 +12,8 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "com/azulcrm/step_definitions",
-        dryRun = true,
-        tags = ""
+        dryRun = false,
+        tags = "@AZUL-805"
 )
 public class CukesRunner {
 }
