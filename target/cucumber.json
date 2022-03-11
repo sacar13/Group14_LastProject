@@ -3,44 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 5904319400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the user logged in",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 132924500,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks on Event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-03-11T15:50:05.770Z",
+        "start_timestamp": "2022-03-09T18:30:54.117Z",
         "before": [
           {
             "result": {
-              "duration": 2708410700,
+              "duration": 3707714500,
               "status": "passed"
             },
             "match": {
@@ -48,14 +15,14 @@
             }
           }
         ],
-        "line": 22,
-        "name": "Creating event with specific time and date",
+        "line": 4,
+        "name": "",
         "description": "",
-        "id": "default;creating-event-with-specific-time-and-date",
+        "id": "login;",
         "after": [
           {
             "result": {
-              "duration": 922514500,
+              "duration": 1028042800,
               "status": "passed"
             },
             "match": {
@@ -68,461 +35,29 @@
         "steps": [
           {
             "result": {
-              "duration": 2309228800,
+              "duration": 15315479400,
               "status": "passed"
             },
-            "line": 23,
-            "name": "the user selects start date, ending date, time and sets the time zone",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 345265200,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "the user gives a name to event and clicks Send button",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4858261300,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "the user should be able to create the event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AZUL-805"
-          },
-          {
-            "name": "@AZUL-801"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6275864900,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 5,
             "name": "the user logged in",
             "match": {
               "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
             },
             "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 111938600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks on Event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-03-11T15:50:23.050Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1771382500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 39,
-        "name": "Setting place and reminder for event",
-        "description": "",
-        "id": "default;setting-place-and-reminder-for-event",
-        "after": [
-          {
-            "result": {
-              "duration": 924821600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2504370100,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "the user selects start date, ending date, time and sets the time zone",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4591172100,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "the user sets reminder and sets place for the event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_sets_reminder_and_sets_place_for_the_event()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 382324400,
-              "status": "passed"
-            },
-            "line": 42,
-            "name": "the user gives a name to event and clicks Send button",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5343000100,
-              "status": "passed"
-            },
-            "line": 43,
-            "name": "the user should be able to create the event and see its location",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_be_able_to_create_the_event_and_see_its_location()"
-            },
-            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@AZUL-805"
-          },
-          {
-            "name": "@AZUL-802"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6461767900,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the user logged in",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 129926300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks on Event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-03-11T15:50:44.973Z",
-        "before": [
-          {
-            "result": {
-              "duration": 2593968200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 58,
-        "name": "Adding attendees to event message",
-        "description": "",
-        "id": "default;adding-attendees-to-event-message",
-        "after": [
-          {
-            "result": {
-              "duration": 932530300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2368879400,
-              "status": "passed"
-            },
-            "line": 59,
-            "name": "the user selects start date, ending date, time and sets the time zone",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1121274800,
-              "status": "passed"
-            },
-            "line": 60,
-            "name": "the user selects \"hr20@cybertekschool.com\" and \"Sales Department\" from members",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr20@cybertekschool.com\"",
-                  "offset": 17
-                },
-                {
-                  "val": "\"Sales Department\"",
-                  "offset": 47
-                }
-              ],
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_and_from_members(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 481771200,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "the user gives a name to event and clicks Send button",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_gives_a_name_to_event_and_clicks_Send_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5540082000,
-              "status": "passed"
-            },
-            "line": 62,
-            "name": "user should see \"hr20@cybertekschool.com\" and \"SalesDepartment\" has gotten the message",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr20@cybertekschool.com\"",
-                  "offset": 16
-                },
-                {
-                  "val": "\"SalesDepartment\"",
-                  "offset": 46
-                }
-              ],
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_should_see_has_gotten_the_message(java.lang.String,java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AZUL-805"
-          },
-          {
-            "name": "@AZUL-803"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 6768487400,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "the user logged in",
-            "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 130925300,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "the user clicks on Event",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_clicks_on_Event()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-03-11T15:51:04.632Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1757510700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 76,
-        "name": "More option details of sending an event",
-        "description": "",
-        "id": "default;more-option-details-of-sending-an-event",
-        "after": [
-          {
-            "result": {
-              "duration": 940117600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2206408800,
-              "status": "passed"
-            },
-            "line": 77,
-            "name": "the user selects start date, ending date, time and sets the time zone",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_selects_start_date_ending_date_time_and_sets_the_time_zone()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 196571600,
-              "status": "passed"
-            },
-            "line": 78,
-            "name": "user clicks on More button",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.user_clicks_on_More_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 115434600,
-              "status": "passed"
-            },
-            "line": 79,
-            "name": "the user should see the following options in this order:",
-            "match": {
-              "location": "com.azulcrm.step_definitions.CreateEventStepDefs.the_user_should_see_the_following_options_in_this_order(java.util.List\u003cjava.lang.String\u003e)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "Availability"
-                ]
-              },
-              {
-                "cells": [
-                  "Repeat"
-                ]
-              },
-              {
-                "cells": [
-                  "Calendar"
-                ]
-              },
-              {
-                "cells": [
-                  "Importance"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AZUL-805"
-          },
-          {
-            "name": "@AZUL-804"
+            "name": "@wip"
           }
         ]
       }
     ],
-    "name": "Default",
+    "name": "Login",
     "description": "",
-    "id": "default",
+    "id": "login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/1_AZUL-800.feature",
-    "tags": [
-      {
-        "name": "@AZUL-805",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
   }
 ]
