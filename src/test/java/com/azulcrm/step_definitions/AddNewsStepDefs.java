@@ -93,7 +93,7 @@ public class AddNewsStepDefs {
             case "html":
                 addNewsPage.textHTMLVisualEditor.get(1).click();
                 break;
-            case "Visual Editor":
+            case "visual editor":
                 addNewsPage.textHTMLVisualEditor.get(2).click();
                 break;
         }
@@ -109,12 +109,13 @@ public class AddNewsStepDefs {
            case "html":
                Assert.assertTrue("HTML is NOT selected",addNewsPage.textHTMLVisualEditor.get(1).isSelected());
                break;
-           case "Visual Editor":
+           case "visual editor":
                Assert.assertTrue("Visual Editor is NOT selected",addNewsPage.textHTMLVisualEditor.get(2).isSelected());
                break;
        }
     }
 
+    //pull request
 
 
 
