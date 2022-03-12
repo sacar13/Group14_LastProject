@@ -1,85 +1,84 @@
 package com.azulcrm.step_definitions;
 
-import com.azulcrm.pages.AddNewsPage;
+import com.azulcrm.pages.NewsPage;
 import com.azulcrm.utilities.BrowserUtils;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
-public class AddNewsStepDefs {
+public class NewsStepDefs {
 
-    AddNewsPage addNewsPage = new AddNewsPage();
+    NewsPage newsPage = new NewsPage();
 
     @And("the user lands on AddNews page")
     public void the_user_lands_on_AddNews_page() {
-       addNewsPage.companyTab.click();
-       addNewsPage.addNewsTab.click();
+       newsPage.companyTab.click();
+       newsPage.addNewsTab.click();
     }
 
     @When("the user clicks on Preview text tab")
     public void the_user_clicks_on_Preview_text_tab() {
-        addNewsPage.previewTextTab.click();
+        newsPage.previewTextTab.click();
     }
 
     @Then("the user should be able to select type of information")
     public void the_user_should_be_able_to_select_type_of_information() {
-        Select select = new Select(addNewsPage.typeOfInfoSelectButton);
+        Select select = new Select(newsPage.typeOfInfoSelectButton);
         select.selectByIndex(6);
-        Assert.assertTrue(addNewsPage.selectOptions.get(6).getText().contains("Portal News"));
+        Assert.assertTrue(newsPage.selectOptions.get(6).getText().contains("Portal News"));
         select.selectByIndex(3);
-        Assert.assertTrue(addNewsPage.selectOptions.get(3).getText().contains("News"));
+        Assert.assertTrue(newsPage.selectOptions.get(3).getText().contains("News"));
     }
 
     @When("the user clicks on calender icon inside the Date input box")
     public void the_user_clicks_on_calender_icon_inside_the_Date_input_box() {
-       addNewsPage.calendarIcon.click();
+       newsPage.calendarIcon.click();
     }
 
     @And("the user selects any date from the calendar")
     public void theUserSelectsAnyDateFromTheCalendar() {
-        addNewsPage.daysOfWeek.get(3).click();
+        newsPage.daysOfWeek.get(3).click();
     }
 
     @When("the user clicks Set time tap and set the time {string} as hour and {string} as minute")
     public void the_user_clicks_Set_time_tap_and_set_the_time_as_hour_and_as_minute(String hour, String minute) {
-        addNewsPage.setTimeTab.click();
-        addNewsPage.setTimeHourInput.sendKeys(hour);
-        addNewsPage.setTimeMinuteInput.sendKeys(minute);
-        addNewsPage.calendarSelectButton.click();
+        newsPage.setTimeTab.click();
+        newsPage.setTimeHourInput.sendKeys(hour);
+        newsPage.setTimeMinuteInput.sendKeys(minute);
+        newsPage.calendarSelectButton.click();
     }
 
     @Then("the user should be able to see the date selected and the time set")
     public void the_user_should_be_able_to_see_the_date_selected_and_the_time_set() {
         String expectedInput = "03/23/2022 11:45:00 pm";
-        String actualInput = addNewsPage.dateInputBox.getAttribute("value");
+        String actualInput = newsPage.dateInputBox.getAttribute("value");
 
         Assert.assertEquals("the date and time is NOT as expected",expectedInput,actualInput);
     }
 
     @When("the user writes {string} on Title input box")
     public void the_user_writes_on_Title_input_box(String title) {
-       addNewsPage.titleInputBox.sendKeys(title);
+       newsPage.titleInputBox.sendKeys(title);
     }
 
     @When("the user writes {string} on the textArea input box")
     public void the_user_writes_on_the_textArea_input_box(String text) {
-        addNewsPage.textAreaInputBox.sendKeys(text);
+        newsPage.textAreaInputBox.sendKeys(text);
     }
 
     @When("the user clicks Save button")
     public void the_user_clicks_Save_button() {
-        addNewsPage.saveButton.click();
+        newsPage.saveButton.click();
     }
 
     @Then("hen the user should be able to see the new is sent")
     public void hen_the_user_should_be_able_to_see_the_new_is_sent() {
         BrowserUtils.waitFor(2.0);
-        addNewsPage.newsTab.click();
+        newsPage.newsTab.click();
         String expectedTitle = "Breaking News";
-        String actualTitle = addNewsPage.lastNew.getText();
+        String actualTitle = newsPage.lastNew.getText();
 
         Assert.assertEquals("the new is NOT created",expectedTitle,actualTitle);
     }
@@ -88,13 +87,13 @@ public class AddNewsStepDefs {
     public void user_clicks_on_radio_button(String button) {
         switch (button.toLowerCase()){
             case "text":
-                addNewsPage.textHTMLVisualEditor.get(0).click();
+                newsPage.textHTMLVisualEditor.get(0).click();
                 break;
             case "html":
-                addNewsPage.textHTMLVisualEditor.get(1).click();
+                newsPage.textHTMLVisualEditor.get(1).click();
                 break;
-            case "Visual Editor":
-                addNewsPage.textHTMLVisualEditor.get(2).click();
+            case "visual editor":
+                newsPage.textHTMLVisualEditor.get(2).click();
                 break;
         }
     }
@@ -104,17 +103,18 @@ public class AddNewsStepDefs {
        switch (button.toLowerCase()){
            case "text":
                System.out.println();
-               Assert.assertTrue("text is NOT selected",addNewsPage.textHTMLVisualEditor.get(0).isSelected());
+               Assert.assertTrue("text is NOT selected", newsPage.textHTMLVisualEditor.get(0).isSelected());
                break;
            case "html":
-               Assert.assertTrue("HTML is NOT selected",addNewsPage.textHTMLVisualEditor.get(1).isSelected());
+               Assert.assertTrue("HTML is NOT selected", newsPage.textHTMLVisualEditor.get(1).isSelected());
                break;
-           case "Visual Editor":
-               Assert.assertTrue("Visual Editor is NOT selected",addNewsPage.textHTMLVisualEditor.get(2).isSelected());
+           case "visual editor":
+               Assert.assertTrue("Visual Editor is NOT selected", newsPage.textHTMLVisualEditor.get(2).isSelected());
                break;
        }
     }
 
+    //PullRequest
 
 
 
