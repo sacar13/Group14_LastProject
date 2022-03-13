@@ -1,5 +1,8 @@
 package com.azulcrm.pages;
 
+import com.azulcrm.utilities.Driver;
+import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -39,5 +42,11 @@ public class EmployeesPage extends BasePage{
 
     @FindBy(xpath = "//a[@class='employee-name-link']")
     public WebElement alphabeticallySearchedEmployee;
+
+    @Then("the user should be able to see title as {string}")
+    public void the_user_should_be_able_to_see_title_as(String expectedTitle) {
+        String actualTitle = Driver.get().getTitle();
+        Assert.assertEquals("Verify the title", expectedTitle, actualTitle);
+    }
 
 }
