@@ -16,6 +16,5 @@ public class BasePage {
     @FindBy(xpath = "//span[@class='menu-popup-item menu-popup-no-icon feed-add-post-form-important feed-add-post-form-important-more ']")
     public WebElement announcementbutton;
 
-// commit I
 
 }
