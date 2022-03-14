@@ -3,11 +3,44 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-03-09T18:30:54.117Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2154907200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79952800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Message tab",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Message_tab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T12:31:16.174Z",
         "before": [
           {
             "result": {
-              "duration": 3707714500,
+              "duration": 2103734200,
               "status": "passed"
             },
             "match": {
@@ -15,14 +48,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "",
+        "line": 8,
+        "name": "User should be able to upload files and pictures",
         "description": "",
-        "id": "login;",
+        "id": "to-send-messages-by-clicking-on-the-message-tab-under-active-stream;user-should-be-able-to-upload-files-and-pictures",
         "after": [
           {
             "result": {
-              "duration": 1028042800,
+              "duration": 835859400,
               "status": "passed"
             },
             "match": {
@@ -35,29 +68,431 @@
         "steps": [
           {
             "result": {
-              "duration": 15315479400,
+              "duration": 637674400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user clicks on upload files",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_upload_files()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3175802600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user chooses file or picture from local disks",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_chooses_file_or_picture_from_local_disks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48972300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user should be able to see attachment text",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_should_be_able_to_see_attachment_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@781"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2025619000,
               "status": "passed"
             },
             "line": 5,
             "name": "the user logged in",
             "match": {
-              "location": "com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()"
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_logged_in()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69959300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Message tab",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Message_tab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T12:31:25.321Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1271511800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User should be able to add contacts from Employees and Departments",
+        "description": "",
+        "id": "to-send-messages-by-clicking-on-the-message-tab-under-active-stream;user-should-be-able-to-add-contacts-from-employees-and-departments",
+        "after": [
+          {
+            "result": {
+              "duration": 845077000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 604112900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user clicks on add more button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_add_more_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 226868700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user clicks on Employees and Departments tab",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Employees_and_Departments_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111740900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user clicks on Sales Department",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Sales_Department()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197797200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user checks All department and subdepartment employees",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_checks_All_department_and_subdepartment_employees()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133949700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user verifies added employees",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_verifies_added_employees()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@wip"
+            "name": "@781"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2167817400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144951700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Message tab",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Message_tab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T12:31:30.816Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1341999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User should be able to attach a link by clicking on link icon",
+        "description": "",
+        "id": "to-send-messages-by-clicking-on-the-message-tab-under-active-stream;user-should-be-able-to-attach-a-link-by-clicking-on-link-icon",
+        "after": [
+          {
+            "result": {
+              "duration": 837612500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 638694500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user clicks on link icon",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_link_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 245858200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the user fills link text and link URL",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_fills_link_text_and_link_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92946400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user clicks on save button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2155025100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the user sees written text on text frame",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_sees_written_text_on_text_frame()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@781"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1958764600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user logged in",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68636200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on Message tab",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_Message_tab()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-14T12:31:38.455Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1305973400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "User should be able to send a message",
+        "description": "",
+        "id": "to-send-messages-by-clicking-on-the-message-tab-under-active-stream;user-should-be-able-to-send-a-message",
+        "after": [
+          {
+            "result": {
+              "duration": 1146882600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.azulcrm.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2214656800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "the user types on frame text \"Last project\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Last project\"",
+                  "offset": 29
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_types_on_frame_text(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141954500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "the user clicks on send button",
+            "match": {
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_clicks_on_send_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3511677600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "the user should see the sent message \"Last project\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Last project\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.azulcrm.step_definitions.MessagesStepDefs.the_user_should_see_the_sent_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@781"
           }
         ]
       }
     ],
-    "name": "Login",
+    "name": "to send messages by clicking on the Message tab under Active Stream",
     "description": "",
-    "id": "login",
+    "id": "to-send-messages-by-clicking-on-the-message-tab-under-active-stream",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/Message.feature",
+    "tags": [
+      {
+        "name": "@781",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

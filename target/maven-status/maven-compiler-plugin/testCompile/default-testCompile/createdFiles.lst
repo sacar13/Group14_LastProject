@@ -1,0 +1,12 @@
+com\azulcrm\step_definitions\CreateEventStepDefs.class
+com\azulcrm\utilities\ConfigurationReader.class
+com\azulcrm\utilities\BrowserUtils$1.class
+com\azulcrm\step_definitions\Hooks.class
+com\azulcrm\pages\EventPage.class
+com\azulcrm\pages\BasePage.class
+com\azulcrm\utilities\BrowserUtils.class
+com\azulcrm\runners\CukesRunner.class
+com\azulcrm\utilities\Driver.class
+com\azulcrm\runners\FailedTestRunner.class
+com\azulcrm\step_definitions\LoginStepDefs.class
+com\azulcrm\pages\LoginPage.class

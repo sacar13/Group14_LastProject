@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_3_11_2022_12_21_PM_[Changes]1" date="1647020206082" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2022_12_21_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 3/11/2022 12:21 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/azulcrm/step_definitions/LoginStepDefs.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/azulcrm/step_definitions/LoginStepDefs.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2022_12_21_PM_[Changes]1/LoginStepDefs.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/default-html-reports/embedded0.png" />
+    <option name="AFTER_PATH" value="target/default-html-reports/embedded0.png" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2022_12_21_PM_[Changes]1/embedded0.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/test-classes/com/azulcrm/runners/CukesRunner.class" />
+    <option name="AFTER_PATH" value="target/test-classes/com/azulcrm/runners/CukesRunner.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2022_12_21_PM_[Changes]1/CukesRunner.class" />
+  </binary>
+</changelist>
