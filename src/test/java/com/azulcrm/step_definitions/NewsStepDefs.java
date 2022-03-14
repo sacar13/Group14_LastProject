@@ -114,7 +114,7 @@ public class NewsStepDefs {
        }
     }
 
-    //PullRequest
+    //pull request
 
 
 
