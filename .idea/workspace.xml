@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="login feature  added">
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="Murat's missing locator added&#10;Created smoke-test tags">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Employees.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Employees.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AZUL-798 (1).feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AZUL-798 (1).feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +42,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/LoginStepDefs.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/configuration.properties" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/LoginPage.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -200,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647086458303</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases">
+      <created>1647363511830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647363511830</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Murat's missing locator added&#10;Created smoke-test tags">
+      <created>1647364759281</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647364759281</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +258,9 @@
     <MESSAGE value="More options feature added" />
     <MESSAGE value="All features completed" />
     <MESSAGE value="gitignore  added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore  added" />
+    <MESSAGE value="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases" />
+    <MESSAGE value="Murat's missing locator added&#10;Created smoke-test tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Murat's missing locator added&#10;Created smoke-test tags" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

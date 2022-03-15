@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.azulcrm.runners.CukesRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 78.425 s - in com.azulcrm.runners.CukesRunner
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 1.636 s <<< FAILURE! - in com.azulcrm.runners.CukesRunner
+Creating event with specific time and date(Default #1)  Time elapsed: 0.143 s  <<< ERROR!
+io.cucumber.core.runner.DuplicateStepDefinitionException: Duplicate step definitions in com.azulcrm.step_definitions.EmployeesStepDef.the_user_logged_in() and com.azulcrm.step_definitions.LoginStepDefs.the_user_logged_in()
+
+com.azulcrm.runners.CukesRunner  Time elapsed: 0.271 s  <<< ERROR!
+org.junit.runner.notification.StoppedByUserException
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+

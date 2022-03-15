@@ -7,7 +7,7 @@ Feature: Default
 		
 
 	#User should be able to attach a link by clicking on the link icon.
-	@AZUL-792 @AZUL-796
+	@AZUL-792 @AZUL-796 @smoke-test
 	Scenario: clicking on the link icon
 		When User should able to click POLL button
 		Then User should able to click Link button
