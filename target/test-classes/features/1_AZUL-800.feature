@@ -16,7 +16,7 @@ Feature: Default
 	## User should be able to click on More to see the event details.
 	## User should be able to see event details parameters as "Availability, Repeat, Calendar, Importance
 	## User should be able to send messages.
-  @AZUL-801
+  @AZUL-801 @smoke-test
   Scenario: Creating event with specific time and date
     Given the user clicks on Event
     When the user selects start date, ending date, time and sets the time zone
