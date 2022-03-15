@@ -6,7 +6,7 @@ Feature: As a user, I should be able to add news under Company
     Given the user logged in
     And the user lands on AddNews page
 
-
+  @smoke-test
   Scenario: User should be able to select the type of information under preview text
     When the user clicks on Preview text tab
     Then the user should be able to select type of information

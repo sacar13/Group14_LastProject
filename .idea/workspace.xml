@@ -4,36 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2022_15_57__Changes_.xml" beforeDir="false" />
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/pages/NewsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/pages/NewsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/NewsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/NewsStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/1_AZUL-800.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/1_AZUL-800.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Group14_BleuProject-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_2332922116.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_529083835.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_529083836.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_529083837.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_529083838.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-tag_529083839.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-html-reports/embedded1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failed-html-report/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.azulcrm.runners.CukesRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.azulcrm.runners.CukesRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.azulcrm.runners.FailedTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.azulcrm.runners.FailedTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.azulcrm.runners.CukesRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.azulcrm.runners.CukesRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.azulcrm.runners.FailedTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.azulcrm.runners.FailedTestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/pages/PollPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/pages/PollPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AZUL-798 (1).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AZUL-798 (1).feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/News.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/News.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/step_definitions/Polldefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/step_definitions/Polldefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647086458303</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases">
+      <created>1647363511830</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647363511830</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,7 +253,8 @@
     <MESSAGE value="More options feature added" />
     <MESSAGE value="All features completed" />
     <MESSAGE value="gitignore  added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore  added" />
+    <MESSAGE value="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selim pre-condition adjusted&#10;Commented out some part in Omer and Murat's cases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

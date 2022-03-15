@@ -14,7 +14,7 @@ public class NewsStepDefs {
 
     @And("the user lands on AddNews page")
     public void the_user_lands_on_AddNews_page() {
-       //newsPage.companyTab.click();
+       newsPage.companyTab.click();
        newsPage.addNewsTab.click();
     }
 

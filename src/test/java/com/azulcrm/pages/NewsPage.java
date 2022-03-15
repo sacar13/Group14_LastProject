@@ -10,6 +10,9 @@ public class NewsPage extends BasePage{
     @FindBy(xpath = "//span[text()='Add News']")
     public WebElement addNewsTab;
 
+    @FindBy(xpath = "/html/body/table/tbody/tr[2]/td/table/tbody/tr[1]/td[1]/div[1]/ul/li[13]/a/span")
+    public WebElement companyTab;
+
     @FindBy(xpath = "(((//tbody)[6]/tr)[2]/td)[2]/select")
     public WebElement typeOfInfoSelectButton;
 
