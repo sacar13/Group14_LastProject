@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class AddNewsPage extends BasePage{
+public class NewsPage extends BasePage{
 
     @FindBy(xpath = "//span[text()='Add News']")
     public WebElement addNewsTab;
