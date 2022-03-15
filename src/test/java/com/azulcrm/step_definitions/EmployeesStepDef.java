@@ -16,16 +16,16 @@ public class EmployeesStepDef {
 
     EmployeesPage employeesPage=new EmployeesPage();
 
-    @Given("the user logged in")
-    public void the_user_logged_in() {
-        Driver.get().get(ConfigurationReader.get("url"));
-        LoginPage loginPage=new LoginPage();
-        String username = ConfigurationReader.get("username");
-        String password = ConfigurationReader.get("password");
-        loginPage.login(username,password);
-        String actualTitle = Driver.get().getTitle();
-        Assert.assertEquals("Verify the title", "(16) Portal", actualTitle);
-    }
+//    @Given("the user logged in")
+//    public void the_user_logged_in() {
+//        Driver.get().get(ConfigurationReader.get("url"));
+//        LoginPage loginPage=new LoginPage();
+//        String username = ConfigurationReader.get("username");
+//        String password = ConfigurationReader.get("password");
+//        loginPage.login(username,password);
+//        String actualTitle = Driver.get().getTitle();
+//        Assert.assertEquals("Verify the title", "(16) Portal", actualTitle);
+//    }
 
     @When("the user clicks to Employees tab")
     public void the_user_clicks_to_Employees_tab() {

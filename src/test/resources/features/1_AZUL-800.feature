@@ -4,8 +4,6 @@ Feature: Default
   #@AZUL-800
   Background:
     Given the user logged in
-    And the user clicks on Event
-		
 
 	#User Story: As a user, I should be able to create events by clicking on Event tab under Activity Stream
 	#
@@ -20,6 +18,7 @@ Feature: Default
 	## User should be able to send messages.
   @AZUL-801
   Scenario: Creating event with specific time and date
+    Given the user clicks on Event
     When the user selects start date, ending date, time and sets the time zone
     And the user gives a name to event and clicks Send button
     Then the user should be able to create the event
@@ -37,6 +36,7 @@ Feature: Default
 	## User should be able to send messages.
   @AZUL-802
   Scenario: Setting place and reminder for event
+    Given the user clicks on Event
     When the user selects start date, ending date, time and sets the time zone
     And the user sets reminder and sets place for the event
     And the user gives a name to event and clicks Send button
@@ -56,6 +56,7 @@ Feature: Default
   @AZUL-803
 
   Scenario: Adding attendees to event message
+    Given the user clicks on Event
     When the user selects start date, ending date, time and sets the time zone
     And the user selects "hr20@cybertekschool.com" and "Sales Department" from members
     And the user gives a name to event and clicks Send button
@@ -74,6 +75,7 @@ Feature: Default
 	## User should be able to send messages.
   @AZUL-804
   Scenario: More option details of sending an event
+    Given the user clicks on Event
     When the user selects start date, ending date, time and sets the time zone
     And user clicks on More button
     Then the user should see the following options in this order:
