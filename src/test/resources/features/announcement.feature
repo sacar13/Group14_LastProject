@@ -3,7 +3,7 @@ Feature: Announcement
 
 
   Background:
-    Given the user logged in as "hr2@cybertekschool.com"
+    Given the user logged in
     And the user goes Announcement subheading from More under Activity Stream
 
 
