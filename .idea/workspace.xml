@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="Murat's missing locator added&#10;Created smoke-test tags">
+    <list default="true" id="af08250e-ee68-475c-9866-04ef8b52057f" name="Changes" comment="pom updated">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_03_2022_17_44_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_03_2022_17_44__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_03_2022_15_57_[Changes]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/EmployeesStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Employees.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Employees.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/azulcrm/runners/CukesRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/1_AZUL-800.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AZUL-798 (1).feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AZUL-798 (1).feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +39,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/LoginStepDefs.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/configuration.properties" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login.feature" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/step_definitions/LoginStepDefs.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/runners/CukesRunner.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/LoginPage.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/resources/features/login.feature" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/test/java/com/azulcrm/pages/BasePage.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
